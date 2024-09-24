@@ -4,11 +4,6 @@ services:
     env: node
     buildCommand: "npm install"
     startCommand: "node index.js"
-    plan: free  # プランは無料を指定
-    autoDeploy: true  # 自動デプロイを有効にする
-    regions: us  # デプロイリージョンを指定
-
-    routes:
-      - type: rewrite
-        source: "/*"
-        destination: "/index.js"
+    plan: free
+    autoDeploy: true
+    regions: us
