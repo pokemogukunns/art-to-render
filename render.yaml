@@ -1,7 +1,7 @@
 services:
   - type: web
     name: please-no-brock
-    env: python
+    env: index
     region: Oregon
     plan: free
     buildCommand: "pip install -r requirements.txt"
