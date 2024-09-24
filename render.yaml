@@ -6,4 +6,4 @@ services:
     startCommand: "node index.js"
     plan: free
     autoDeploy: true
-    regions: us
+    regions: Oregon
