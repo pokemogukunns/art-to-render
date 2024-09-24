@@ -4,6 +4,6 @@ services:
     env: node
     buildCommand: "npm install"
     startCommand: "node index.js"
+    region: Oregon
     plan: free
     autoDeploy: true
-    regions: Oregon
